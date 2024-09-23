@@ -299,7 +299,7 @@ const Works: React.FC = () => {
                         <img src="images/portfolio/gallery/g-JsAI.png" alt=""/>
 
                         <div className="modal-popup__desc">
-                            <h5>Retro Camera</h5>
+                            <h5>Javascript Self Driving Car</h5>
                             <p>This project was used as a stepping stone to gain a better understanding of machine learning at a very basic level with the use of any libraries.
                             It's very fun machine learning game that is very visual and interactive. It's something I always come back to and play around with and try to improve.</p>
                             <ul className="modal-popup__cat">
