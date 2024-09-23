@@ -1,5 +1,5 @@
 {
-  "homepage": "http://KyleSaunders01.github.io/Portfolio-Website",
+  "homepage": "https://kylesaunders01.github.io/Portfolio-Website/",
   "name": "portfolio-website",
   "version": "1.0.0",
   "description": "",
@@ -9,7 +9,7 @@
     "start": "snowpack dev",
     "build": "snowpack build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build -f"
   },
   "keywords": [],
   "author": "",

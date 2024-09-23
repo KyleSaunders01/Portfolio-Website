@@ -7,6 +7,9 @@ export default {
         // Source files will be bundled into the /dist folder
         src: { url: '/dist' },
     },
+    buildOptions: {
+        baseUrl: '/Portfolio-Website/',
+    },
     plugins: [
         // '@snowpack/plugin-react-refresh', // Enables fast refresh for React (disabled for now)
         '@snowpack/plugin-typescript',    // Handles TypeScript support
@@ -36,6 +39,5 @@ export default {
         // Add an alias for importing common components or utilities more easily
         '@components': './src/components',
         '@styles': './src/styles',
-    },
-    experimental: { appDir: false}
+    }
 };
