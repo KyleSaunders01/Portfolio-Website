@@ -73,8 +73,7 @@ const About: React.FC = () => {
                         <p className="attention-getter" data-animate-el>
                             I'm a dedicated software engineer with a passion for problem-solving and continuous learning.
                             I’m reliable, adaptable, and thrive in dynamic environments, whether working independently or as part of a team.
-                            I earned my Bachelor of Science in Information Technology from North West University, where I balanced academics with extracurriculars like kickboxing and canoe polo.
-                            I enjoy tackling complex technical challenges, designing scalable systems, and applying cutting-edge technologies to create impactful solutions.
+                            I earned my Bachelor of Science in Information Technology from North West University and I enjoy tackling complex technical challenges, designing scalable systems, and applying cutting-edge technologies to create impactful solutions.
                         </p>
                         <button onClick={handleDownload} className="btn btn--medium u-fullwidth" data-animate-el>Download CV</button>
 
