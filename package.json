@@ -14,18 +14,27 @@
   "license": "ISC",
   "devDependencies": {
     "@snowpack/plugin-postcss": "^1.4.3",
-    "@snowpack/plugin-react-refresh": "^2.5.0",
     "@snowpack/plugin-typescript": "^1.2.1",
+    "@types/animejs": "^3.1.12",
+    "@types/basiclightbox": "^5.0.4",
     "@types/react": "^18.3.8",
     "@types/react-dom": "^18.3.0",
-    "snowpack": "^3.8.8",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "react-scroll": "^1.9.0",
+    "snowpack": "^3.2.2",
+    "tailwindcss": "^3.4.12",
     "typescript": "^5.6.2"
   },
   "dependencies": {
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.47",
-    "reac": "^0.0.0",
+    "animejs": "^3.2.2",
+    "basiclightbox": "^5.0.4",
+    "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "tailwindcss": "^3.4.12"
+    "swiper": "^11.1.14"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   }
 }

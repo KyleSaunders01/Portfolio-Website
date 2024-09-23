@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import './styles/app.css';
 import './styles/tailwind.css';
 
-//render was deprecated find modern alternative
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+    <App />,
+    document.getElementById('root'),
+);
