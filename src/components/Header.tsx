@@ -53,7 +53,7 @@ const Header: React.FC = () => {
             {/* Mobile Header */}
             {/*TODO*/}
             {/*bg-gray-900 should be in class but it bugs out when used, figure out the bug*/}
-            <div className="header-mobile flex justify-between items-center p-4 text-white lg:hidden">
+            <div className="header-mobile flex justify-between items-center text-white md:hidden">
                 <span className="mobile-home-link text-xl font-bold">
                   <a href="index.html">Kyle.</a>
                 </span>
@@ -64,7 +64,7 @@ const Header: React.FC = () => {
             </div>
 
             {/* Main Navigation */}
-            <div className="row wide main-nav-wrap ${menuIsOpen ? 'is-open' : ''} sm:hidden lg:block">
+            <div className="row wide main-nav-wrap ${menuIsOpen ? 'is-open' : ''}">
                 <nav className="column lg-12 main-nav">
                     <ul className="flex justify-center py-2 text-lg">
                         <li className="home-link">

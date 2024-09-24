@@ -91,11 +91,9 @@ const About: React.FC = () => {
 
                     <ul className="skills-list h1" data-animate-el>
                         <li>Software Architecture</li>
-                        <li>Algorithm Design & Optimization</li>
                         <li>Full-Stack Development</li>
                         <li>API Design & Integration</li>
                         <li>DevOps & CI/CD</li>
-                        <li>Test-Driven Development</li>
                     </ul>
 
                 </div>
