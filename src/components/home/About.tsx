@@ -114,16 +114,30 @@ const About: React.FC = () => {
                         <div className="timeline__block">
                             <div className="timeline__bullet"></div>
                             <div className="timeline__header">
-                                <h4 className="timeline__title">Sticitt</h4>
+                                <h4 className="timeline__title">Octoco</h4>
                                 <h5 className="timeline__meta">Junior Software Engineer</h5>
-                                <p className="timeline__timeframe">November 2023 - Present</p>
+                                <p className="timeline__timeframe">January 2025 - Present</p>
                             </div>
                             <div className="timeline__desc">
-                                <p>Joining Sticitt as my first full-time job after university, I am acquiring extensive knowledge in various technologies, methodologies, and best practices. I am committed to continuously honing and applying these skills on a daily basis.
-                                    I consistently identify opportunities for improvement, a practice that shines through in my QA testing rounds. I ensure strict compliance with data security and industry regulations, enforcing these standards by implementing the OWASP API Security guidelines when building applications.
-                                    I am learning the value of teamwork and recognising that each team member can have a different approach. Experiencing this teaches me to appreciate the importance of viewing challenges from diverse perspectives. I am also learning how crucial it is to stay committed to maintaining solid fundamental knowledge and staying up-to-date with the latest advancements in computer science.
-                                    Colleagues have noted that I am extremely easy to work with and that I never miss a deadline—qualities that have even led to the adoption of a new company value: perseverance.
-                                    I am gaining extensive experience with a broad range of technologies, including .NET, Blazor, Entity Framework Core, PostgreSQL, xUnit, Google Cloud Platform (GCP), GitHub, Git, RabbitMQ, gRPC, REST, HTML5, CSS, C#, Kotlin, and JavaScript.</p>
+                                Joining Octoco has been an incredible step in my career, giving me the opportunity to work on high-impact projects and grow rapidly as a developer. My primary focus is on rebuilding and modernizing .NET backend APIs, transforming long-standing legacy systems into more scalable, maintainable, and performant solutions. Through this work, I’ve gained valuable insight into how .NET has evolved over the years and sharpened my ability to design software that bridges the gap between legacy technology and modern architectures.
+
+                                My experience at Octoco has been diverse, ranging from working in very small teams with just a tech lead to collaborating within larger, cross-functional teams that include architects, backend developers, team leads, and designers. This exposure has taught me to adapt quickly, communicate effectively, and contribute meaningfully no matter the team structure.
+
+                                I’ve also been involved in full-stack development on projects that span across backend APIs, mobile applications, and frontend integrations. Some highlights include building backend services that interact with hardware via modern protocols, integrating payment providers, and contributing to React-based frontend components. In one particularly rewarding project, I had the chance to dive deeper into IoT-style development, which not only broadened my technical perspective but also sparked a personal curiosity for hardware and embedded systems. Inspired by the brilliant engineers I work with, I’ve since been exploring hardware development in my own time, which has made me a stronger and more well-rounded software engineer.
+
+                                Working at Octoco has reinforced the importance of collaboration, problem-solving, and continuous learning. The culture here makes it easy to grow — whether it’s tackling tough technical challenges, sharing ideas with colleagues, or simply enjoying good times together at company functions. I’m proud to be trusted with significant projects and responsibilities, and I’m equally proud to contribute to Octoco’s legacy. More than just a workplace, Octoco has become a community that I deeply value, and it continues to push me to become the best engineer I can be.
+                            </div>
+                        </div>
+
+                        <div className="timeline__block">
+                            <div className="timeline__bullet"></div>
+                            <div className="timeline__header">
+                                <h4 className="timeline__title">Sticitt</h4>
+                                <h5 className="timeline__meta">Junior Software Engineer</h5>
+                                <p className="timeline__timeframe">November 2023 - December 2024</p>
+                            </div>
+                            <div className="timeline__desc">
+                                Joining Sticitt as my first full-time job after university, I acquired extensive knowledge in various technologies, methodologies, and best practices. I was committed to continuously honing and applying these skills on a daily basis. I consistently identified opportunities for improvement, a practice that shone through in my QA testing rounds. I ensured strict compliance with data security and industry regulations, enforcing these standards by implementing the OWASP API Security guidelines when building applications. I learned the value of teamwork and recognized that each team member can have a different approach. Experiencing this taught me to appreciate the importance of viewing challenges from diverse perspectives. I also learned how crucial it is to stay committed to maintaining solid fundamental knowledge and staying up-to-date with the latest advancements in computer science. Colleagues noted that I was extremely easy to work with and that I never missed a deadline—qualities that even led to the adoption of a new company value: perseverance. I gained extensive experience with a broad range of technologies, including .NET, Blazor, Entity Framework Core, PostgreSQL, xUnit, Google Cloud Platform (GCP), GitHub, Git, RabbitMQ, gRPC, REST, HTML5, CSS, C#, Kotlin, and JavaScript.
                             </div>
                         </div>
 
