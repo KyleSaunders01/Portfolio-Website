@@ -47,7 +47,7 @@ const Intro: React.FC = () => {
 
                     <h1 className="text-huge-title">
                         I am Kyle, <br/>
-                        a Junior Software <br/>
+                        a Software <br/>
                         Engineer based <br/>
                         in Cape Town,<br/>
                         South Africa.

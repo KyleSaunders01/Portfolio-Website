@@ -71,9 +71,13 @@ const About: React.FC = () => {
                             About
                         </h2>
                         <p className="attention-getter" data-animate-el>
-                            I'm a dedicated software engineer with a passion for problem-solving and continuous learning.
-                            I’m reliable, adaptable, and thrive in dynamic environments, whether working independently or as part of a team.
-                            I earned my Bachelor of Science in Information Technology from North West University and I enjoy tackling complex technical challenges, designing scalable systems, and applying cutting-edge technologies to create impactful solutions.
+                            I'm an Intermediate Software Engineer with a passion for building reliable, scalable backend systems.
+
+                            Since beginning my software engineering career, I've worked across enterprise modernization projects, distributed microservice architectures, cloud-native infrastructure and IoT platforms. My work has ranged from modernizing legacy enterprise applications to designing backend services for large-scale software platforms, always with a focus on maintainability, performance and long-term supportability.
+
+                            Prior to software engineering, I co-founded a digital media agency where I gained valuable experience in business operations, digital marketing, client management and product delivery. That entrepreneurial background continues to influence how I approach software development—I strive to understand not only the technical solution, but the business problem it solves.
+
+                            Outside of work you'll usually find me riding and racing off-road motorcycles, maintaining and rebuilding my own bikes, working on personal software projects, exploring new technologies, or tending to my saltwater reef aquarium.
                         </p>
                         <button onClick={handleDownload} className="btn btn--medium u-fullwidth" data-animate-el>Download CV</button>
 
@@ -115,17 +119,29 @@ const About: React.FC = () => {
                             <div className="timeline__bullet"></div>
                             <div className="timeline__header">
                                 <h4 className="timeline__title">Octoco</h4>
-                                <h5 className="timeline__meta">Junior Software Engineer</h5>
+                                <h5 className="timeline__meta">Software Engineer (Junior → Intermediate)</h5>
                                 <p className="timeline__timeframe">January 2025 - Present</p>
                             </div>
                             <div className="timeline__desc">
-                                Joining Octoco has been an incredible step in my career, giving me the opportunity to work on high-impact projects and grow rapidly as a developer. My primary focus is on rebuilding and modernizing .NET backend APIs, transforming long-standing legacy systems into more scalable, maintainable, and performant solutions. Through this work, I’ve gained valuable insight into how .NET has evolved over the years and sharpened my ability to design software that bridges the gap between legacy technology and modern architectures.
+                                <p>
+                                    Joining Octoco has been a defining step in my career, allowing me to work on complex enterprise software that has significantly accelerated my growth as a software engineer. Since joining as a Junior Software Engineer and progressing into an Intermediate role, I've taken ownership of modernizing legacy systems, designing scalable backend services, and delivering software that solves complex real-world problems.
+                                </p>
 
-                                My experience at Octoco has been diverse, ranging from working in very small teams with just a tech lead to collaborating within larger, cross-functional teams that include architects, backend developers, team leads, and designers. This exposure has taught me to adapt quickly, communicate effectively, and contribute meaningfully no matter the team structure.
+                                <p>
+                                    My work has focused heavily on modern .NET development, where I've rebuilt legacy enterprise applications from the ground up by migrating them from the .NET Framework to .NET 8. Along the way I've simplified architectures by removing legacy middleware dependencies, significantly improving performance, reliability, maintainability and operational visibility through modern engineering practices and improved observability.
+                                </p>
 
-                                I’ve also been involved in full-stack development on projects that span across backend APIs, mobile applications, and frontend integrations. Some highlights include building backend services that interact with hardware via modern protocols, integrating payment providers, and contributing to React-based frontend components. In one particularly rewarding project, I had the chance to dive deeper into IoT-style development, which not only broadened my technical perspective but also sparked a personal curiosity for hardware and embedded systems. Inspired by the brilliant engineers I work with, I’ve since been exploring hardware development in my own time, which has made me a stronger and more well-rounded software engineer.
+                                <p>
+                                    I've had the opportunity to work alongside experienced Solution Architects to design and implement distributed microservice architectures deployed within on-premise Kubernetes environments. These projects have exposed me to technologies such as Kestra, Rancher, Elasticsearch, Sentry, RabbitMQ, MQTT and modern cloud-native development practices while reinforcing the importance of scalability, resilience and clean architecture.
+                                </p>
 
-                                Working at Octoco has reinforced the importance of collaboration, problem-solving, and continuous learning. The culture here makes it easy to grow — whether it’s tackling tough technical challenges, sharing ideas with colleagues, or simply enjoying good times together at company functions. I’m proud to be trusted with significant projects and responsibilities, and I’m equally proud to contribute to Octoco’s legacy. More than just a workplace, Octoco has become a community that I deeply value, and it continues to push me to become the best engineer I can be.
+                                <p>
+                                    Beyond backend development, I've contributed across the full technology stack, developing React and TypeScript frontends, Backend-for-Frontend (BFF) services, NestJS APIs and integrations with payment providers, enterprise systems and IoT-enabled hardware. Working on software that communicates with physical devices has been particularly rewarding, combining traditional backend engineering with real-time communication and systems integration.
+                                </p>
+
+                                <p>
+                                    What I enjoy most about Octoco is the level of trust and ownership I've been given. I've had the opportunity to lead significant modernization initiatives, contribute to architectural decisions, mentor colleagues in modern .NET development, and continuously expand my knowledge across backend engineering, infrastructure and distributed systems. Every project presents new challenges, and that's exactly what keeps software engineering exciting for me.
+                                </p>
                             </div>
                         </div>
 
@@ -133,25 +149,25 @@ const About: React.FC = () => {
                             <div className="timeline__bullet"></div>
                             <div className="timeline__header">
                                 <h4 className="timeline__title">Sticitt</h4>
-                                <h5 className="timeline__meta">Junior Software Engineer</h5>
-                                <p className="timeline__timeframe">November 2023 - December 2024</p>
+                                <h5 className="timeline__meta">Software Engineer (Intern → Junior Software Engineer)</h5>
+                                <p className="timeline__timeframe">May 2023 - December 2024</p>
                             </div>
                             <div className="timeline__desc">
-                                Joining Sticitt as my first full-time job after university, I acquired extensive knowledge in various technologies, methodologies, and best practices. I was committed to continuously honing and applying these skills on a daily basis. I consistently identified opportunities for improvement, a practice that shone through in my QA testing rounds. I ensured strict compliance with data security and industry regulations, enforcing these standards by implementing the OWASP API Security guidelines when building applications. I learned the value of teamwork and recognized that each team member can have a different approach. Experiencing this taught me to appreciate the importance of viewing challenges from diverse perspectives. I also learned how crucial it is to stay committed to maintaining solid fundamental knowledge and staying up-to-date with the latest advancements in computer science. Colleagues noted that I was extremely easy to work with and that I never missed a deadline—qualities that even led to the adoption of a new company value: perseverance. I gained extensive experience with a broad range of technologies, including .NET, Blazor, Entity Framework Core, PostgreSQL, xUnit, Google Cloud Platform (GCP), GitHub, Git, RabbitMQ, gRPC, REST, HTML5, CSS, C#, Kotlin, and JavaScript.
-                            </div>
-                        </div>
+                                <p>
+                                    Sticitt marked the beginning of my professional software engineering career. Starting as an intern while completing my university studies, I quickly transitioned into a full-time Software Engineer where I worked on enterprise applications used within the education sector. The experience provided an exceptional foundation in modern software development, introducing me to enterprise engineering practices, collaborative development and large production systems.
+                                </p>
 
-                        <div className="timeline__block">
-                            <div className="timeline__bullet"></div>
-                            <div className="timeline__header">
-                                <h4 className="timeline__title">Sticitt</h4>
-                                <h5 className="timeline__meta">Internship Program</h5>
-                                <p className="timeline__timeframe">May 2023 - October 2023</p>
-                            </div>
-                            <div className="timeline__desc">
-                                <p>During this internship I learnt all the basics of what it takes to be a full stack web developer. I developed several projects using the .NET Framework with Blazor as the front end and PostgreSQL as the database. I handled database interactions through Entity Framework Core and implemented REST APIs to facilitate communication between the front end and back end.
-                                    I was thrown into the deep end and learnt multiple new technologies in a few months, I love learning like this. I first developed a basic wish list app to get acquainted with the technologies. After that, I was assigned to build an application that also included authentication and session management to track users, who in this case were the company's employees. The app had to track Fines, Nominations and Log assistance between employees.
-                                    During my time building the the Fine, Nomination and Logging app, I also built a E-commerce site to take my understanding of those technologies even further and to apply it to the logging app as I really like to challenge myself to learn as much as I can.</p>
+                                <p>
+                                    During my time at Sticitt I developed and maintained applications using C#, the .NET Framework, Blazor, Entity Framework Core and PostgreSQL while building REST APIs and integrating with existing SOAP services. I also worked extensively with Kubernetes deployments through Google Cloud Platform and ArgoCD, gaining valuable experience with modern DevOps workflows, production deployments and post-release validation.
+                                </p>
+
+                                <p>
+                                    One of my proudest achievements was redesigning and rebuilding the FE Parent Portal from the ground up. The project focused on delivering a significantly more modern, maintainable and user-friendly experience while improving both functionality and long-term maintainability.
+                                </p>
+
+                                <p>
+                                    Beyond writing software, I developed a strong appreciation for secure software engineering, code quality, teamwork and continuous improvement. I regularly participated in QA testing, contributed ideas for process improvements and embraced every opportunity to learn from more experienced engineers. Those experiences established the engineering principles that continue to guide how I design and build software today.
+                                </p>
                             </div>
                         </div>
 
@@ -159,13 +175,21 @@ const About: React.FC = () => {
                             <div className="timeline__bullet"></div>
                             <div className="timeline__header">
                                 <h4 className="timeline__title">KLS Media</h4>
-                                <h5 className="timeline__meta">Cinematographer & Photographer</h5>
-                                <p className="timeline__timeframe">June 2021 - December 2022</p>
+                                <h5 className="timeline__meta">Co-Founder & Creative Director</h5>
+                                <p className="timeline__timeframe">June 2021 - April 2023</p>
                             </div>
                             <div className="timeline__desc">
-                                <p>I started making videos of some gaming products when I was in high school and started to enjoy the filmmaking process a lot.
-                                    I streamed some of my e-sport matches and did some more gaming videos and it really grew on me as hobby.
-                                    When I got to University I took some pictures for friends and made some videos of cars and one day I decided to start a little part time business with my partner making videos and taking photos. We learnt how to source clients, do marketing, hire other creatives to help us with work, work as a well functioning team and most importantly take amazing pictures and make brilliant videos.</p>
+                                <p>
+                                    While studying at university, I co-founded KLS Media with a close friend after discovering a passion for filmmaking and commercial photography. What started as a creative hobby quickly grew into a small business serving clients across a variety of industries.
+                                </p>
+
+                                <p>
+                                    As a co-founder I was responsible for far more than creative production. I managed client relationships, planned and executed digital marketing campaigns, built websites and landing pages, developed lead generation funnels and helped businesses convert social media traffic into paying customers. I also directed and produced commercial videos, music videos and promotional photography while managing projects from initial concept through final delivery.
+                                </p>
+
+                                <p>
+                                    Running a business while completing my degree taught me invaluable lessons about entrepreneurship, communication, project management and delivering value to clients. Looking back, many of those skills continue to shape how I approach software engineering today. I don't just focus on writing quality code—I enjoy understanding the business challenges behind every solution and building software that genuinely solves problems.
+                                </p>
                             </div>
                         </div>
 
